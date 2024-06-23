@@ -1,0 +1,72 @@
+body{
+    background-image: url(1338694.png);
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+div{
+    height: 40px;
+    width: 100%;
+    background-color: beige;
+    position: relative;
+    top: -9px;
+}
+div ul li{
+    list-style: none;
+    float: left;
+    padding: 20px;
+    color: rgb(46, 11, 162);
+    font-size: 20px;
+    position: relative;
+    top: -11px;
+    left: 890px;
+}
+div ul li:hover{
+    color: rgb(213, 10, 68);
+    font-size: 22px;
+
+}
+h1{
+    position: relative;
+    color:rgb(233, 178, 178);
+    font-size: 30px;
+    top: 100px;
+    left:125px;
+    font-family: Helvetica, sans-serif;
+    letter-spacing: -1.6px;
+    text-shadow: 0 0 5px black;
+    animation-name: color;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes color{
+    50%{color: rgb(74, 8, 50);}
+}
+
+p{
+    position: relative;
+    color:rgb(243, 233, 233);
+    font-size: 40px;
+    text-align: center;
+    top: 70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: -1.6px;
+    text-shadow: 0 0 9px black;
+    animation-name: color1;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes color1{
+    50%{color: rgb(18, 209, 44);text-shadow: 0 0 8px rgb(74, 8, 50);}
+}
+marquee{
+    background-color: blanchedalmond;
+    position: relative;
+    top: 420px;
+    width: 100%;
+    color: rgb(94, 4, 4);
+    height: 25px;
+}
